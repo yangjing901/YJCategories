@@ -1,0 +1,6 @@
+framework module YJCategories {
+  umbrella header "YJCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

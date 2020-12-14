@@ -1,0 +1,37 @@
+PODS:
+  - YJCategories (1.0.0):
+    - YJCategories/Category (= 1.0.0)
+    - YJCategories/Core (= 1.0.0)
+  - YJCategories/Category (1.0.0):
+    - YJCategories/Category/NSDictionary (= 1.0.0)
+    - YJCategories/Category/NSObject (= 1.0.0)
+    - YJCategories/Category/NSString (= 1.0.0)
+    - YJCategories/Category/UIButton (= 1.0.0)
+    - YJCategories/Category/UIColor (= 1.0.0)
+    - YJCategories/Category/UIImage (= 1.0.0)
+    - YJCategories/Category/UIResponder (= 1.0.0)
+    - YJCategories/Category/UIView (= 1.0.0)
+  - YJCategories/Category/NSDictionary (1.0.0)
+  - YJCategories/Category/NSObject (1.0.0)
+  - YJCategories/Category/NSString (1.0.0)
+  - YJCategories/Category/UIButton (1.0.0)
+  - YJCategories/Category/UIColor (1.0.0)
+  - YJCategories/Category/UIImage (1.0.0)
+  - YJCategories/Category/UIResponder (1.0.0)
+  - YJCategories/Category/UIView (1.0.0)
+  - YJCategories/Core (1.0.0):
+    - YJCategories/Category
+
+DEPENDENCIES:
+  - YJCategories (from `../`)
+
+EXTERNAL SOURCES:
+  YJCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJCategories: 38da616b2ee6b320dd1d72af96fd44b42e03145f
+
+PODFILE CHECKSUM: e70a487a727b41d111436f4bf5202f294c8515a6
+
+COCOAPODS: 1.9.3

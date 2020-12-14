@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJCategories'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of YJCategories.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        一些常用的并与业务脱离的Categories
                        DESC
 
   s.homepage         = 'https://github.com/yangjing901/YJCategories'
@@ -26,17 +26,46 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yangjing901' => 'yangjing901@qq.com' }
   s.source           = { :git => 'https://github.com/yangjing901/YJCategories.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YJCategories/Classes/**/*'
+  s.subspec 'Category' do |category|
+      category.subspec 'NSObject' do |obj|
+          obj.source_files = 'YJCategories/Classes/Category/NSObject/*'
+      end
+      
+      category.subspec 'NSDictionary' do |dic|
+          dic.source_files = 'YJCategories/Classes/Category/NSDictionary/*'
+      end
+      
+      category.subspec 'NSString' do |str|
+          str.source_files = 'YJCategories/Classes/Category/NSString/*'
+      end
+      
+      category.subspec 'UIButton' do |btn|
+          btn.source_files = 'YJCategories/Classes/Category/UIButton/*'
+      end
+      
+      category.subspec 'UIColor' do |color|
+          color.source_files = 'YJCategories/Classes/Category/UIColor/*'
+      end
+      
+      category.subspec 'UIImage' do |image|
+          image.source_files = 'YJCategories/Classes/Category/UIImage/*'
+      end
+      
+      category.subspec 'UIResponder' do |responder|
+          responder.source_files = 'YJCategories/Classes/Category/UIResponder/*'
+      end
+      
+      category.subspec 'UIView' do |view|
+          view.source_files = 'YJCategories/Classes/Category/UIView/*'
+      end
+  end
   
-  # s.resource_bundles = {
-  #   'YJCategories' => ['YJCategories/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Core' do |core|
+      core.source_files = 'YJCategories/Classes/Core/*'
+      core.dependency 'YJCategories/Category'
+  end
+  
 end
