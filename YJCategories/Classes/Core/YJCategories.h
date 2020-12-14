@@ -9,26 +9,26 @@
 #define YJCategories_h
 
 /************************ category ****************************/
-#import <YJCategories/NSDictionary+YJDictionary.h>
+#import <YJingCategories/NSDictionary+YJDictionary.h>
 
-#import <YJCategories/NSObject+YJObject.h>
+#import <YJingCategories/NSObject+YJObject.h>
 
-#import <YJCategories/UIColor+YJColor.h>
+#import <YJingCategories/UIColor+YJColor.h>
 
-#import <YJCategories/UIImage+YJImage.h>
-#import <YJCategories/UIImage+YJCompress.h>
-#import <YJCategories/UIImage+YJSize.h>
+#import <YJingCategories/UIImage+YJImage.h>
+#import <YJingCategories/UIImage+YJCompress.h>
+#import <YJingCategories/UIImage+YJSize.h>
 
-#import <YJCategories/UIButton+YJButton.h>
-#import <YJCategories/UIButton+YJPosition.h>
+#import <YJingCategories/UIButton+YJButton.h>
+#import <YJingCategories/UIButton+YJPosition.h>
 
-#import <YJCategories/UIView+YJView.h>
+#import <YJingCategories/UIView+YJView.h>
 
-#import <YJCategories/NSString+YJLocalized.h>
-#import <YJCategories/NSString+YJSize.h>
-#import <YJCategories/NSString+YJEncode.h>
-#import <YJCategories/NSString+YJDate.h>
+#import <YJingCategories/NSString+YJLocalized.h>
+#import <YJingCategories/NSString+YJSize.h>
+#import <YJingCategories/NSString+YJEncode.h>
+#import <YJingCategories/NSString+YJDate.h>
 
-#import <YJCategories/UIResponder+YJResponder.h>
+#import <YJingCategories/UIResponder+YJResponder.h>
 
 #endif /* YJCategories_h */

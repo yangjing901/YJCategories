@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91EF52D89C0377F90AB4E3B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D4905EFFCE08CFB311614B2F /* Pods-YJCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJCategories_Example.debug.xcconfig"; path = "Target Support Files/Pods-YJCategories_Example/Pods-YJCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1BB2509A2E3987575B1946E /* YJCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJCategories.podspec; path = ../YJCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC796EAF2587413900B718A6 /* YJingCategories.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = YJingCategories.podspec; path = ../YJingCategories.podspec; sourceTree = "<group>"; };
 		F37F041AB549FD23B3A40AA3 /* Pods-YJCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJCategories_Tests.release.xcconfig"; path = "Target Support Files/Pods-YJCategories_Tests/Pods-YJCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC491C8CC04EE428E78B4E80 /* Pods-YJCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJCategories_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YJCategories_Tests/Pods-YJCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F1BB2509A2E3987575B1946E /* YJCategories.podspec */,
+				DC796EAF2587413900B718A6 /* YJingCategories.podspec */,
 				91EF52D89C0377F90AB4E3B9 /* README.md */,
 				2934B474773D324FEF0468CA /* LICENSE */,
 			);

@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'YJCategories'
+  s.name             = 'YJingCategories'
   s.version          = '1.0.0'
   s.summary          = 'A short description of YJCategories.'
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |core|
       core.source_files = 'YJCategories/Classes/Core/*'
-      core.dependency 'YJCategories/Category'
+      core.dependency 'YJingCategories/Category'
   end
   
 end
