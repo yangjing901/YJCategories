@@ -26,6 +26,6 @@
 #import "UIView+YJView.h"
 #import "YJCategories.h"
 
-FOUNDATION_EXPORT double YJCategoriesVersionNumber;
-FOUNDATION_EXPORT const unsigned char YJCategoriesVersionString[];
+FOUNDATION_EXPORT double YJingCategoriesVersionNumber;
+FOUNDATION_EXPORT const unsigned char YJingCategoriesVersionString[];
 

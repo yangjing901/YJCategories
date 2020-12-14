@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'YJCategories_Example' do
-  pod 'YJCategories', :path => '../'
+  pod 'YJingCategories', :path => '../'
 
   target 'YJCategories_Tests' do
     inherit! :search_paths

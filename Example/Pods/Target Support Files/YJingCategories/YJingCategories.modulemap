@@ -1,0 +1,6 @@
+framework module YJingCategories {
+  umbrella header "YJingCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

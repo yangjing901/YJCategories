@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## YJCategories
+## YJingCategories
 
 Copyright (c) 2020 yangjing901 <yangjing901@qq.com>
 
