@@ -33,4 +33,7 @@
 /// 时间格式转换, 时间戳->字符串
 + (NSString *)yjDateFormatter:(NSString *)dateFormatterStr timeInterval:(NSTimeInterval)timeInterval;
 
+/// 时间格式转换, 时间戳->日期（一天以内（上/下午，12小时制），一周以内（星期，24小时制），其他（年月日 时分））
++ (NSString *)yjDateFormatterForCalendarTimeInterval:(long long)timeInterval;
+
 @end
