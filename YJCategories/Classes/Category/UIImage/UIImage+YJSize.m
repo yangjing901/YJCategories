@@ -64,7 +64,7 @@
             imageSize = CGSizeMake(maxWidth, currentHeight);
         }
     }
-    //w:h >= 1: 2.5 && w:h < 1: 3 -> w = maxW, h = 1/2.5*maxW
+    //w:h >= 2.5:1  && w:h < 3:1 -> w = maxW, h = 1/2.5*maxW
     else if(pixScale >= 2.5 && pixScale < 3) {
         CGFloat currentHeight = 1/2.5*maxWidth;
         if (currentHeight > maxHeight) {
@@ -75,9 +75,9 @@
         }
         
     }
-    //w:h >= 1: 3 -> w = maxW, h = 1/3*maxW
+    //w:h >= 3:1 -> w = maxW, h = 1/3*maxW
     else {
-        CGFloat currentHeight = 1/3*maxWidth;
+        CGFloat currentHeight = 1/3.0*maxWidth;
         if (currentHeight > maxHeight) {
             imageSize = CGSizeMake(maxWidth * maxHeight / currentHeight, maxHeight);
 
